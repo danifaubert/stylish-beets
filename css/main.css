@@ -8,6 +8,7 @@ h1, h2 {
   color: #3f1622;
   font-family: 'PT Sans', sans-serif;
   line-height: 1.125rem;
+  text-decoration: none;
 }
 
 aside {
@@ -16,6 +17,5 @@ aside {
   font-weight: normal;
 }
 
-text-decoration: none;
-font-weight: normal;
+
 list-style-type: square;
