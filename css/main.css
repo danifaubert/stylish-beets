@@ -4,7 +4,7 @@ html {
   line-height: 1.5rem;
 }
 
-ol li {
+ol li: hover {
   color: #8f2440
 }
 h1, h2 {
