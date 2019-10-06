@@ -5,9 +5,10 @@ html {
 }
 
 a:hover {
-  color: #8f2440
+  color: #8f2440;
   text-decoration: none;
 }
+
 h1, h2 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
@@ -28,9 +29,11 @@ aside {
 blockquote {
   font-weight: normal;
 }
+
 p::first-line {
   font-family: "PT Serif", serif;
 }
+
 dt {
   font-weight: bold;
   list-style-type: square;
