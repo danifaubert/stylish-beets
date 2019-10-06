@@ -23,6 +23,12 @@ a:hover {
   text-decoration: none;
 }
 
+blockquote {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  line-height: 1.5rem;
+}
+
 a {
   color: #8f2440;
   font-family: "PT Sans", sans-serif;
