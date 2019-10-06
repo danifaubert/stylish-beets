@@ -12,6 +12,7 @@ h1, h2 {
   font-family: 'PT Sans', sans-serif;
   line-height: 1.125rem;
   text-decoration: none;
+  line-height: 0.8rem;
 }
 
 .intro {
