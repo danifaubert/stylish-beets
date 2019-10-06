@@ -17,5 +17,7 @@ h1, h2 {
   font-weight: normal;
 }
 
-
+aside time datetime {
+  font-weight: bold;
+}
 list-style-type: square;
