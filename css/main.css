@@ -12,18 +12,18 @@ h1, h2 {
   font-family: 'PT Sans', sans-serif;
   line-height: 1.125rem;
   text-decoration: none;
-  line-height: 0.8rem;
 }
 
 .intro {
   font-family: 'PT Serif', serif;
   font-style: italic;
   font-weight: normal;
+  line-height: 0.8rem;
 }
 
 aside {
   font-weight: bold;
-  line-height: 1.125rem;
+  line-height: 1.5rem;
 }
 
 blockquote {
