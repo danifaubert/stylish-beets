@@ -20,4 +20,8 @@ h1, h2 {
 aside time datetime {
   font-weight: bold;
 }
+
+.dl dt {
+  font-weight: bold;
+}
 list-style-type: square;
