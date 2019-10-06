@@ -4,6 +4,9 @@ html {
   line-height: 1.5rem;
 }
 
+ol li {
+  color: #8f2440
+}
 h1, h2 {
   color: #3f1622;
   font-family: 'PT Sans', sans-serif;
@@ -17,11 +20,18 @@ h1, h2 {
   font-weight: normal;
 }
 
-aside time datetime {
+aside {
   font-weight: bold;
+  line-height: 1.125rem;
 }
 
-.dl dt {
-  font-weight: bold;
+blockquote {
+  font-weight: normal;
 }
-list-style-type: square;
+p::first-line {
+  font-family: 'PT Serif', serif;
+}
+dt {
+  font-weight: bold;
+  list-style-type: square;
+}
