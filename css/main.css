@@ -1,24 +1,23 @@
 html {
   background-color: #c9b5ab;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   line-height: 1.5rem;
 }
 
-ol li: hover {
+a:hover {
   color: #8f2440
 }
 h1, h2 {
   color: #3f1622;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   line-height: 1.125rem;
   text-decoration: none;
 }
 
 .intro {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-style: italic;
   font-weight: normal;
-  line-height: 0.8rem;
 }
 
 aside {
@@ -30,7 +29,7 @@ blockquote {
   font-weight: normal;
 }
 p::first-line {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
 }
 dt {
   font-weight: bold;
