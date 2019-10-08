@@ -10,6 +10,10 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  color: #3f1622;
+}
+
 header li {
   color: #8f2440;
   line-height: 1.125rem;
