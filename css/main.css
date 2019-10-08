@@ -10,22 +10,45 @@ h1 {
   font-weight: bold;
 }
 
-ol li {
+nav ol {
   font-size: 1.125rem;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
 }
 
-article {
-  color: #222;
+a {
+  color: #8f2440;
   font-family: "PT Sans", sans-serif;
-  font-size: 1.5rem;
+  line-height: 1.125rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
+article {
+  font-size: 1.125rem;
+  font-family: "PT Serif", serif;
   font-weight: bold;
+  font-style: normal;
 }
 
 aside p {
-  font-family: "PT Sans", sans-serif;
-  font-weight: normal;
+  font-size: 1rem;
+  font-family: "PT Serif", serif;
+
 }
 
 h2 {
@@ -39,9 +62,7 @@ ul {
 }
 
 nav ul {
-  font-family: "PT Serif", serif;
-  font-size: .8rem;
-  list-style-type: circle;
+  list-style-type: circle;
 }
 
 header li {
@@ -53,7 +74,6 @@ header li {
 }
 
 blockquote {
-  color: #222;
   font-size: 1.5rem;
   font-family: "PT Serif", serif;
   font-style: italic;
@@ -65,27 +85,11 @@ blockquote {
   font-style: normal;
 }
 
-a:hover {
-  color: #3f1622;
-  text-decoration: none;
-}
-
-a {
-  color: #8f2440;
-  font-family: "PT Sans", sans-serif;
-  line-height: 1.125rem;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-img {
-  width: 100%;
-}
-
 figure {
-  text-align: center;
-  font-family: "PT Serif", serif;
-  font-weight: normal;
+  color: #222;
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-weight: normal;
 }
 
 p::first-line {
