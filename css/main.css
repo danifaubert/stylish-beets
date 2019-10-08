@@ -10,6 +10,11 @@ h1 {
   font-weight: bold;
 }
 
+article {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 aside p {
   font-family: "PT Sans", sans-serif;
   font-weight: normal;
@@ -69,10 +74,6 @@ figure {
   font-family: "PT Serif", serif;
   font-style: italic;
   font-weight: normal;
-}
-
-aside {
-  font-weight: bold;
 }
 
 p::first-line {
