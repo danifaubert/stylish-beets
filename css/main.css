@@ -51,13 +51,13 @@ aside p {
   font-weight: normal;
   font-style: normal;
 }
-.one {
-  font-size: 1rem;
-  font-family: "PT Serif", serif;
-  font-weight: normal;
-  font-style: normal;
-}
 
+.one {
+  font-size: 1.125rem;
+  font-family: "PT Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
 
 h2 {
   color: #3f1622;
