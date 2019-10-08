@@ -3,7 +3,7 @@ html {
   line-height: 1.5rem;
 }
 
-header, h2 {
+h1 {
   color: #3f1622;
   line-height: 1.5rem;
   font-family: "PT Sans", sans-serif;
@@ -20,12 +20,6 @@ header li {
 a:hover {
   color: #3f1622;
   text-decoration: none;
-}
-
-aside:blockquote {
-  font-family: "PT Serif", serif;
-  font-style: italic;
-  line-height: 1.5rem;
 }
 
 a {
