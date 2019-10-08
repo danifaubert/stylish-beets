@@ -1,6 +1,5 @@
 html {
   background-color: #c9b5ab;
-  font-family: "PT Sans", sans-serif;
   line-height: 1.5rem;
 }
 
@@ -23,7 +22,7 @@ a:hover {
   text-decoration: none;
 }
 
-blockquote {
+aside:blockquote {
   font-family: "PT Serif", serif;
   font-style: italic;
   line-height: 1.5rem;
@@ -40,7 +39,7 @@ img {
   width: 100%;
 }
 
-.intro {
+figure {
   font-family: "PT Serif", serif;
   font-style: italic;
   font-weight: normal;
