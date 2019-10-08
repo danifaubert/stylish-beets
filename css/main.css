@@ -59,20 +59,15 @@ aside p {
   font-style: normal;
 }
 
-h2 {
-  color: #3f1622;
-  font-family: "PT Sans", sans-serif;
-  font-size: 1.5rem;
-}
-
 ul {
   font-family: "PT Serif", serif;
   font-size: 1.125rem;
+  font-weight: lighter;
   list-style-type: lower-greek;
 }
 
 nav ul {
-  font-family: "PT Serif", serif;
+  font-family: "PT Sans", sans-serif;
   font-size: .8rem;
   list-style-type: circle;
 }
@@ -97,19 +92,76 @@ blockquote {
   font-style: normal;
 }
 
+#common-varieties {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
 figure {
   text-align: center;
   font-family: "PT Serif", serif;
   font-weight: normal;
 }
 
-p::first-line {
-  color: #222;
-  font-family: "PT Serif", serif;
+#nutritional-information {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
 }
 
-dt {
-  color: #222;
+aside dl dt {
+  font-family: "PT Serif", serif;
+  font-style: normal;
   font-weight: bold;
-  list-style-type: square;
+  font-size: 1.125rem;
+}
+
+aside dl dt:first-child {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+
+dd data {
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+
+.data {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+
+#tags {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+aside ul li {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
+  list-style-type: circle;
+}
+
+small {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
+}
+
+small a {
+  color: #8f2440;
+  text-decoration: none;
+  font-size: .8rem;
+}
+
+small a:hover {
+  color: #3f1622;
+  font-size: .8rem;
 }
