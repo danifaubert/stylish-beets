@@ -29,6 +29,11 @@ blockquote {
   font-weight: normal;
 }
 
+.Chris-Pratt {
+  font-size: .8rem;
+  font-style: normal;
+}
+
 a:hover {
   color: #3f1622;
   text-decoration: none;
