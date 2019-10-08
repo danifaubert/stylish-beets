@@ -16,6 +16,14 @@ h2 {
   font-weight: bold;
 }
 
+ul {
+  list-style-type: lower-greek;
+}
+
+nav ul {
+  list-style-type: circle;
+}
+
 header li {
   color: #8f2440;
   line-height: 1.125rem;
