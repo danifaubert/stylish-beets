@@ -10,12 +10,20 @@ h1 {
   font-weight: bold;
 }
 
+ol li {
+  font-size: 1.125rem;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+}
+
 article {
+  color: #222;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-aside, p {
+aside p {
   font-family: "PT Sans", sans-serif;
   font-weight: normal;
 }
@@ -42,7 +50,7 @@ header li {
   list-style-type: none;
 }
 
-blockquote p {
+blockquote {
   color: #222;
   font-size: 1.5rem;
   font-family: "PT Serif", serif;
@@ -72,16 +80,19 @@ img {
 }
 
 figure {
+  color: #222;
   font-family: "PT Serif", serif;
   font-style: italic;
   font-weight: normal;
 }
 
 p::first-line {
+  color: #222;
   font-family: "PT Serif", serif;
 }
 
 dt {
+  color: #222;
   font-weight: bold;
   list-style-type: square;
 }
