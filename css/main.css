@@ -39,7 +39,9 @@ ul {
 }
 
 nav ul {
-  list-style-type: circle;
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
+  list-style-type: circle;
 }
 
 header li {
