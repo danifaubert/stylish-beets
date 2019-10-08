@@ -15,7 +15,7 @@ article {
   font-weight: bold;
 }
 
-aside p {
+aside, p {
   font-family: "PT Sans", sans-serif;
   font-weight: normal;
 }
