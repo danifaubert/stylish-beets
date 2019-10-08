@@ -73,6 +73,7 @@ a {
   font-family: "PT Sans", sans-serif;
   line-height: 1.125rem;
   text-decoration: none;
+  font-weight: bold;
 }
 
 img {
@@ -80,10 +81,9 @@ img {
 }
 
 figure {
-  color: #222;
-  font-family: "PT Serif", serif;
-  font-style: italic;
-  font-weight: normal;
+  text-align: center;
+  font-family: "PT Serif", serif;
+  font-weight: normal;
 }
 
 p::first-line {
