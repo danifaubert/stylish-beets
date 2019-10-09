@@ -32,6 +32,12 @@ img {
   width: 100%;
 }
 
+figure {
+  text-align: center;
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+}
+
 figcaption {
   font-size: 1rem;
   font-style: italic;
@@ -45,7 +51,7 @@ article {
   font-style: normal;
 }
 
-aside p {
+aside {
   font-size: 1rem;
   font-family: "PT Serif", serif;
   font-weight: normal;
@@ -53,7 +59,7 @@ aside p {
 }
 
 .one {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-family: "PT Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -72,12 +78,10 @@ nav ul {
   list-style-type: circle;
 }
 
-header li {
-  color: #8f2440;
-  line-height: 1.125rem;
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold;
-  list-style-type: none;
+aside ol li {
+  list-style-type: lower-greek;
+  font-family: "PT Serif", serif;
+  font-size: 1.125rem;
 }
 
 blockquote {
@@ -96,12 +100,6 @@ blockquote {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
-}
-
-figure {
-  text-align: center;
-  font-family: "PT Serif", serif;
-  font-weight: normal;
 }
 
 #nutritional-information {
